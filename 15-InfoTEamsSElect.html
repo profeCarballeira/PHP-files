@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Select a Football Team</title>
+</head>
+<body>
+
+    <h1>Select a Football Team</h1>
+
+    <!-- Form that sends data via GET to the PHP script -->
+    <form action="14-DataTeam.php" method="GET">
+        <label for="team">Choose a Team:</label>
+        <select id="team" name="team" required>
+            <option value="" disabled selected>Select a team</option>
+            <option value="FC Barcelona">FC Barcelona</option>
+            <option value="Real Madrid">Real Madrid</option>
+            <option value="Manchester United">Manchester United</option>
+            <option value="Bayern Munich">Bayern Munich</option>
+            <option value="Paris Saint-Germain">Paris Saint-Germain</option>
+        </select>
+        <button type="submit">Search</button>
+    </form>
+
+</body>
+</html>
