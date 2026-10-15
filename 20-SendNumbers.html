@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Send Number</title>
+</head>
+<body>
+
+    <h1>Enter a Number</h1>
+    <br>
+    <p>0 to calculate the average and delete</p>
+    <br>
+    <!-- Form sends data to process.php via GET -->
+    <form action="21-AppendOrAverage.php" method="GET">
+        <label for="num">Number:</label>
+        <input type="number" id="num" name="num" required>
+        <button type="submit">Send</button>
+    </form>
+
+</body>
+</html>
