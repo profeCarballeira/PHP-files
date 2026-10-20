@@ -1,4 +1,5 @@
 <?php
+
 // Target directory configuration
 $target_dir = "uploads/";
 
